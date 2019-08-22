@@ -1,5 +1,7 @@
 
-## Schema UI
+## Streams Schema UI
+
+Streams Schema UI is a web tool to manage AVRO schemas in Kafka Schema Registry seamlessly. 
 
 Schema management  - Enterprise wide schema management 
 Create, update and maintain schema hierarchies Audit trail of schema changes Validate and test compatibility Schema designer Data catalog integration
@@ -22,7 +24,7 @@ Installation
 * By default H2 database is used, you can change the database details in jdbc.properties file
 
 
-License
+License - Free for commercial use
 ------
 InsightLake Data Explorer is a commercial product but distributed to be used freely. Please contact contact@insightlake.com for details.
 
