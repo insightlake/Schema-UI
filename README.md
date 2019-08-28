@@ -24,6 +24,9 @@ Installation
 * By default H2 database is used, you can change the database details in jdbc.properties file
 
 
+## Demo Link
+https://insightlake.s3.amazonaws.com/releases/schema/index.html
+
 License - Free for commercial use
 ------
 InsightLake Data Explorer is a commercial product but distributed to be used freely. Please contact contact@insightlake.com for details.
