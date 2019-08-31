@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Starting InsightLake Schema UI..."
+echo "Starting InsightLake ..."
 
 export JAVA_HOME=/usr/java/default
 
@@ -44,6 +44,9 @@ for f in $EDP_HOME/libs/*.jar; do
     CLASSPATH=${CLASSPATH}:$f;
 done
 
-echo "Starting user apis ..."
-nohup java -jar $EDP_HOME/libs/edp-schema-reg-1.0.jar com.insightlake.edp.schemareg.EdpSchemaReg --spring.config.name=api-user,jdbc --spring.config.location=file:///$EDP_HOME/conf/api-user.properties,file:///$EDP_HOME/conf/jdbc.properties >/dev/null 2>&1 &
+echo "Starting schema backend ..."
+nohup java -jar $EDP_HOME/libs/edp-schema-reg-1.0.jar com.insightlake.edp.schemareg.EdpSchemaReg --spring.config.name=h2 --spring.config.location=file:///$EDP_HOME/conf/h2.properties >/dev/null 2>&1 &
+
+echo "Starting Schema UI"
+nohup java -jar $EDP_HOME/libs/edp-schema-ui-1.0.jar com.insightlake.edp.schema.ui.Application --spring.config.name=ui --spring.config.location=file:///$EDP_HOME/conf/ui.properties >/dev/null 2>&1 &
 
