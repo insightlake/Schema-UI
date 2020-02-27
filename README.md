@@ -8,7 +8,39 @@ Create, update and maintain schema hierarchies Audit trail of schema changes Val
 Schema management allows admins to create and update schemas, maintain versions and compatibility. It tracks schema change audit logs. It also allows developers a read only view to adhere to approved schemas in the applications.
 Topic management Topic Creation | Promotion Data owner, consumers & producers
 
-<img style="width:100%;" src="images/streams-schema.png">
+<img style="width:100%;" src="images/schemas-tab/schema-page.png">
+
+* Schema
+
+<img style="width:100%;" src="images/schemas-tab/schema-tabs.png">
+
+* Info
+
+<img style="width:100%;" src="images/schemas-tab/schema-info-tab.png">
+
+* Config
+
+<img style="width:100%;" src="images/schemas-tab/schema-config-tab.png">
+
+* History
+
+<img style="width:100%;" src="images/schemas-tab/schema-history-tab.png">
+
+Cluster
+--------
+<img style="width:100%;" src="images/cluster-tab/cluster-selected-page.png">
+
+Users
+--------
+
+* User Details
+
+<img style="width:100%;" src="images/users-tab/user-details.png">
+
+* Group Details
+
+<img style="width:100%;" src="images/users-tab/group-details.png">
+
 
 InsightLake Data Explorer solution is part of InsightLake Data Platform. It provides an intuitive UI and allows users to connect to various data sources and explore the data eaisly.
 
