@@ -1,0 +1,16 @@
+version: "2.0"
+
+services:
+  schema-backend-service:
+    build:
+      context: ../libs
+      dockerfile: ./shemauibacked
+    ports:
+    - 9494:9494
+
+  schema-ui-service:
+    build:
+      context: ../libs
+      dockerfile: ./shemaui
+    ports:
+    - 8080:8080
