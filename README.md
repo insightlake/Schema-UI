@@ -42,7 +42,7 @@ Users
 <img style="width:100%;" src="images/users-tab/group-details.png">
 
 
-InsightLake Data Explorer solution is part of InsightLake Data Platform. It provides an intuitive UI and allows users to connect to various data sources and explore the data eaisly.
+InsightLake Schema UI solution is part of InsightLake Data Platform. It provides an intuitive UI and allows users to connect to various data sources and explore the data eaisly.
 
 
 To learn more, check out [http://www.insightlake.com/schema-ui.html](http://www.insightlake.com/schema-ui.html)
@@ -71,7 +71,7 @@ https://insightlake.s3.amazonaws.com/releases/schema/index.html
 
 License - Free for commercial use
 ------
-InsightLake Data Explorer is a commercial product but distributed to be used freely. Please contact contact@insightlake.com for details.
+InsightLake Schema UI is a commercial product but distributed to be used freely. Please contact contact@insightlake.com for details.
 
 Getting Help
 ----------
