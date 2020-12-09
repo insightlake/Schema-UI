@@ -3,10 +3,14 @@
 
 Streams Schema UI is a web tool to manage AVRO schemas in Kafka Schema Registry seamlessly. 
 
-Schema management  - Enterprise wide schema management 
-Create, update and maintain schema hierarchies Audit trail of schema changes Validate and test compatibility Schema designer Data catalog integration
+## Schema management  - Enterprise wide schema management 
+* Create, update and maintain schema hierarchies 
+* Audit trail of schema changes 
+* Validate and test compatibility 
+* Schema designer 
+* Data catalog integration
+
 Schema management allows admins to create and update schemas, maintain versions and compatibility. It tracks schema change audit logs. It also allows developers a read only view to adhere to approved schemas in the applications.
-Topic management Topic Creation | Promotion Data owner, consumers & producers
 
 <img style="width:100%;" src="images/schemas-tab/schema-page.png">
 
